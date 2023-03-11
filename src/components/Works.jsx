@@ -9,10 +9,10 @@ const Work = () => {
     //setProject(data);
   
   return (
-    <div name='work' className='w-full md:h-screen text-[#a7e1a1] bg-[#000000]'>
+    <div name='work' className='w-full md:h-screen bg-gradient-to-tr from-[#a7e1a1] to-[#74d36c]  text-[#241f21] '>
       <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full text-center'>
         <div className='pb-8'>
-          <p className='text-4xl font-bold inline  text-[#a7e1a1] '>
+          <p className='text-4xl font-bold inline  text-[#241f21] '>
             Work
           </p>
           <p className='py-6'>Check out some of my recent work</p>
