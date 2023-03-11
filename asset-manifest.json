@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-website/static/css/main.15d40fd0.css",
-    "main.js": "/portfolio-website/static/js/main.bbd9a18c.js",
+    "main.css": "/portfolio-website/static/css/main.baec91fe.css",
+    "main.js": "/portfolio-website/static/js/main.c4ce13be.js",
     "static/media/realestate.jpg": "/portfolio-website/static/media/realestate.44fd19f4c6872731149c.jpg",
     "static/media/workImg.jpeg": "/portfolio-website/static/media/workImg.e4c66be6ae2ae4f83608.jpeg",
     "static/media/react.png": "/portfolio-website/static/media/react.0cf951a69d8e58f83f9d.png",
@@ -9,16 +9,16 @@
     "static/media/github.png": "/portfolio-website/static/media/github.3b9e32903aa89111875d.png",
     "static/media/html.png": "/portfolio-website/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/tailwind.png": "/portfolio-website/static/media/tailwind.e47ac876b8d4d0bba47a.png",
-    "static/media/Logo.png": "/portfolio-website/static/media/Logo.3c3d5eaedcb8d7101acc.png",
     "static/media/css.png": "/portfolio-website/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/java.png": "/portfolio-website/static/media/java.1c6729143e148bf83493.png",
+    "static/media/Logo.png": "/portfolio-website/static/media/Logo.edd121e40df44b1546dd.png",
     "static/media/javascript.png": "/portfolio-website/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/portfolio-website/index.html",
-    "main.15d40fd0.css.map": "/portfolio-website/static/css/main.15d40fd0.css.map",
-    "main.bbd9a18c.js.map": "/portfolio-website/static/js/main.bbd9a18c.js.map"
+    "main.baec91fe.css.map": "/portfolio-website/static/css/main.baec91fe.css.map",
+    "main.c4ce13be.js.map": "/portfolio-website/static/js/main.c4ce13be.js.map"
   },
   "entrypoints": [
-    "static/css/main.15d40fd0.css",
-    "static/js/main.bbd9a18c.js"
+    "static/css/main.baec91fe.css",
+    "static/js/main.c4ce13be.js"
   ]
 }
