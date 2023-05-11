@@ -5,12 +5,12 @@ import Transition from 'react-transition-group'
 
 const Home = () => {
   const [inProp, setInProp] = useState(false);
-  const nodeRef = useRef(null);
+  // const nodeRef = useRef(null);
     
   return (
     
     
-    <div name='home' ref={nodeRef} className='w-full h-screen bg-[#e6d5ad]'>
+    <div name='home' className='w-full h-screen bg-[#e6d5ad]'>
 
         {/* Container */}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
