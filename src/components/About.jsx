@@ -1,8 +1,8 @@
 import React from 'react'
 
-const About = () => {
+const About = () => { 
   return (
-    <div name='about' className='w-full h-80  bg-gradient-to-tr from-[#a7e1a1] to-[#74d36c]  text-[#000000]'>
+    <div name='about' className='w-full h-96  bg-gradient-to-tr from-[#98FF99] to-[#62D28F]  text-[#000000]'>
         {/* <div className='flex flex-col justify-center -skew-y-12 z-0 w-full h-80 px-3 bg-[#9ccf97] text-[#000000] sm:mr-2 -py-60'>
         </div> */}
             <div className='flex flex-col justify-center items-center w-full h-full z-10'>
@@ -19,7 +19,14 @@ const About = () => {
                     </div>
                     <div>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit consectetur numquam, pariatur optio atque unde? Magnam voluptas asperiores, neque sapiente quibusdam vero corporis, nemo cumque, necessitatibus commodi sequi beatae assumenda.
+                            I'm currently a senior in Computer Science 
+                            at the University Of Pittsburgh.
+                            <br />
+                            <br />
+                            Throughout my experience in the field, I have taken an interest in Web Development, especially in Front-end Development and UI/UX Design. 
+                            <br />
+                            <br />
+                            In my free time, I usually play games, playing my instruments, or learning cooking recipes.
                         </p>
                     </div>
                     

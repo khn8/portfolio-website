@@ -27,3 +27,13 @@
     hsla(242, 74%, 61%, 0.8)
   );
 }
+
+#contact .form {
+  padding: 6px;
+  caret-color: transparent;
+}
+#contact .header {
+  padding: 6px;
+  cursor: pointer;
+  caret-color: transparent;
+}

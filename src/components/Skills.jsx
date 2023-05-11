@@ -11,12 +11,12 @@ import Tailwind from '../assets/tailwind.png';
 
 const Skills = () => {
   return (
-    <div name='skills' className='w-full h-5/6  text-[#a7e1a1] bg-[#241f21]'>
+    <div name='skills' className='w-full h-5/6  text-[#e0d6ad] bg-[#241f21]'>
         {/* <div className='flex flex-col justify-center rounded-3xl w-4/6 h-5/7 px-3 ml-60 bg-[#91a9ec] text-[#000000] sm:mr-2'> */}
             {/* Container */}
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full text-center'>
                 <div>
-                    <p className='text-4xl font-bold inline  text-[#a7e1a1]'>Skills</p>
+                    <p className='text-4xl font-bold inline  text-[#e0d6ad]'>Skills</p>
                     <p className='py-4'>These are the technologies I have experience in</p>
                 </div>
 
