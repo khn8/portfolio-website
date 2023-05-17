@@ -93,25 +93,25 @@ const Navbar = () => {
             <ul className={nav ? 'text-[#1A120B]' : 'text-[#eff2ef]'}>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300'>
                     <a className='flex justify-between items-center w-full'
-                    href="">
+                    href="https://www.linkedin.com/in/khang-buu-nguyen/" target="_blank">
                         Linkedin <FaLinkedin size={30}/>
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300'>
                     <a className='flex justify-between items-center w-full'
-                    href="">
+                    href="https://github.com/khn8" target="_blank">
                         Github <FaGithub size={30}/>
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300'>
                     <a className='flex justify-between items-center w-full'
-                    href="">
+                    href="mailto:khangbuu187@gmail.com" target="_blank">
                         Email <HiOutlineMail size={30}/>
                     </a>
                 </li>
                 <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[10px] duration-300'>
                     <a className='flex justify-between items-center w-full'
-                    href="">
+                    href="https://drive.google.com/file/d/1GvcAnWNU_5eA6-aSL0E2XpSj9BNPXbG1/view" target="_blank">
                         Resume <BsFillPersonLinesFill size={30}/>
                     </a>
                 </li>

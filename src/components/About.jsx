@@ -20,7 +20,7 @@ const About = () => {
                     <div>
                         <p>
                             I'm currently a senior in Computer Science 
-                            at the University Of Pittsburgh.
+                            at the University of Pittsburgh.
                             <br />
                             <br />
                             Throughout my experience in the field, I have taken an interest in Web Development, especially in Front-end Development and UI/UX Design. 
