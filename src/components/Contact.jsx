@@ -39,7 +39,7 @@ const Contact = () => {
                 </a>
 
                 <a className='flex justify-between items-center w-full'
-                href="https://drive.google.com/file/d/1GvcAnWNU_5eA6-aSL0E2XpSj9BNPXbG1/view" target="_blank">
+                href='https://drive.google.com/file/d/1GvcAnWNU_5eA6-aSL0E2XpSj9BNPXbG1/view?usp=sharing'>    
                     <BsFillPersonLinesFill size={30}/>
                 </a>
                 </div>

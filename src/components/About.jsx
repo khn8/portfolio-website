@@ -2,7 +2,7 @@ import React from 'react'
 
 const About = () => { 
   return (
-    <div name='about' className='w-full h-96  bg-gradient-to-tr from-[#98FF99] to-[#62D28F]  text-[#000000]'>
+    <div name='about' className='w-full h-full sm:h-96 bg-gradient-to-tr from-[#98FF99] to-[#62D28F]  text-[#000000]'>
         {/* <div className='flex flex-col justify-center -skew-y-12 z-0 w-full h-80 px-3 bg-[#9ccf97] text-[#000000] sm:mr-2 -py-60'>
         </div> */}
             <div className='flex flex-col justify-center items-center w-full h-full z-10'>
@@ -26,7 +26,7 @@ const About = () => {
                             Throughout my experience in the field, I have taken an interest in Web Development, especially in Front-end Development and UI/UX Design. 
                             <br />
                             <br />
-                            In my free time, I usually play games, playing my instruments, or learning cooking recipes.
+                            In my free time, I usually play games, play my instruments, or learn cooking recipes.
                         </p>
                     </div>
                     
