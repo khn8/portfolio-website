@@ -2,36 +2,146 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap");
+
 @layer base {
+  * {
+    scroll-behavior: smooth;
+  }
+  
   body {
     @apply font-['Poppins'];
   }
+  
   li {
     @apply px-4;
     @apply cursor-pointer;
   }
 }
 
+/* Custom Animations */
+@keyframes fade-in-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fade-in-up {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes blob {
+  0%, 100% {
+    transform: translate(0, 0) scale(1);
+  }
+  25% {
+    transform: translate(20px, -50px) scale(1.1);
+  }
+  50% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+  75% {
+    transform: translate(50px, 50px) scale(1.05);
+  }
+}
+
+.animate-fade-in-down {
+  animation: fade-in-down 0.8s ease-out;
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.8s ease-out;
+}
+
+.animate-blob {
+  animation: blob 7s infinite;
+}
+
+.animation-delay-200 {
+  animation-delay: 0.2s;
+}
+
+.animation-delay-400 {
+  animation-delay: 0.4s;
+}
+
+.animation-delay-600 {
+  animation-delay: 0.6s;
+}
+
+.animation-delay-2000 {
+  animation-delay: 2s;
+}
+
+.animation-delay-4000 {
+  animation-delay: 4s;
+}
+
+/* Gradient Text */
+.gradient-text {
+  background: linear-gradient(135deg, #49a54b 0%, #62D28F 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #241f21;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #49a54b;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3d8a3f;
+}
+
+/* Smooth transitions for all interactive elements */
+button, a, img {
+  transition: all 0.3s ease;
+}
+
+/* Content div (legacy) */
 .content-div {
   background-repeat: no-repeat;
   background-size: cover;
-  background-position:  center;
+  background-position: center;
   height: 250px;
 }
 
 .content-div:hover {
   background-image: linear-gradient(
     to right,
-    rgba(112, 157,255,0.8)
+    rgba(112, 157, 255, 0.8),
     hsla(242, 74%, 61%, 0.8)
   );
 }
 
+/* Contact form styles (legacy) */
 #contact .form {
   padding: 6px;
   caret-color: transparent;
 }
+
 #contact .header {
   padding: 6px;
   cursor: pointer;
