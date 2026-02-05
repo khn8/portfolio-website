@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import { useParams, useNavigate, Link } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import { data } from '../data/data';
 import { HiArrowLeft, HiExternalLink } from 'react-icons/hi';
 

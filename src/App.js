@@ -9,8 +9,13 @@ import Works from './components/Works';
 import ProjectDetail from './components/ProjectDetail';
 
 function App() {
+  console.log('App component is rendering');
+  
+  // For local dev, try to detect if we're on /portfolio-website path
+  const basename = window.location.pathname.includes('/portfolio-website') ? '/portfolio-website' : '';
+  
   return (
-    <Router>
+    <Router basename={basename}>
       <Routes>
         {/* Main Portfolio Page */}
         <Route path="/" element={

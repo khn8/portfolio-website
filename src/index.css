@@ -147,3 +147,82 @@ button, a, img {
   cursor: pointer;
   caret-color: transparent;
 }
+
+/* Spin animation for Home component */
+@keyframes spin-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 20s linear infinite;
+}
+
+/* Melona animation styles */
+.melona-popsicle {
+  /* Popsicle is always visible, just covered by package */
+}
+
+.melona-package {
+  /* Default: positioned to completely cover the popsicle */
+  transform: translateX(2px) translateY(-1px) rotate(2deg);
+  transition: transform 0.6s cubic-bezier(0.34, 1.56, 0.64, 1);
+  transform-origin: center center;
+}
+
+.melona-container:hover .melona-package {
+  /* On hover: move package away to reveal popsicle - scales with screen size */
+  transform: translateX(-20px) translateY(-3px) rotate(-8deg);
+}
+
+/* Larger animation movement on bigger screens */
+@media (min-width: 640px) {
+  .melona-container:hover .melona-package {
+    transform: translateX(-25px) translateY(-4px) rotate(-8deg);
+  }
+}
+
+@media (min-width: 1024px) {
+  .melona-container:hover .melona-package {
+    transform: translateX(-30px) translateY(-5px) rotate(-8deg);
+  }
+}
+
+/* Skills scrolling animations */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes scroll-right {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.animate-scroll-left {
+  animation: scroll-left 30s linear infinite;
+}
+
+.animate-scroll-left:hover {
+  animation-play-state: paused;
+}
+
+.animate-scroll-right {
+  animation: scroll-right 30s linear infinite;
+}
+
+.animate-scroll-right:hover {
+  animation-play-state: paused;
+}

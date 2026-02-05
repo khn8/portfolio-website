@@ -1,5 +1,4 @@
 import React from 'react'
-import { HiOutlineExternalLink } from 'react-icons/hi'
 
 const Experience = () => {
   const experiences = [

@@ -15,7 +15,6 @@
     "react-scripts": "5.0.1",
     "react-scroll": "^1.8.9",
     "react-transition-group": "^4.4.5",
-    "transition-hook": "^1.5.2",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
