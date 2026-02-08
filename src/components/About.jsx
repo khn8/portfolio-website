@@ -25,8 +25,22 @@ const About = () => {
 
                 {/* Personal Interest - Responsive Text */}
                 <p className='text-base sm:text-lg leading-relaxed text-gray-800'>
-                    Outside of being glued to my computer screen, you'll find me exploring new technologies, working on side projects, or contributing to open-source communities.
+                    Outside of being glued to my computer screen, you'll find me playing music or cooking.
                 </p>
+
+                {/* Cooking hobby - right under hobbies paragraph */}
+                <div className='max-w-[200px] sm:max-w-[240px] md:max-w-[260px]'>
+                    <div className='bg-white/80 backdrop-blur-md rounded-lg sm:rounded-xl shadow-lg overflow-hidden border border-white/50'>
+                        <img 
+                            src={require('../assets/dining bim.jpg')} 
+                            alt='Enjoying food'
+                            className='w-full aspect-square object-cover'
+                        />
+                        <p className='text-[10px] sm:text-xs md:text-sm text-gray-700 p-2 sm:p-3 leading-snug'>
+                            Another hobby of mine is cooking—this is basically my face whenever I'm enjoying my food.
+                        </p>
+                    </div>
+                </div>
 
                 {/* Call to Action - Responsive Text */}
                 <p className='text-base sm:text-lg leading-relaxed text-gray-800'>
@@ -35,7 +49,7 @@ const About = () => {
             </div>
 
             {/* Right Column - Photo - Fully Responsive */}
-            <div className='w-full max-w-md md:max-w-lg mx-auto md:mx-0 md:ml-8 lg:ml-12 mb-32 md:mb-40'>
+            <div className='w-full max-w-xs sm:max-w-sm md:max-w-md mx-auto md:mx-0 md:ml-8 lg:ml-12 mb-32 md:mb-40'>
                 <div className='bg-black rounded-2xl sm:rounded-3xl overflow-hidden shadow-xl sm:shadow-2xl aspect-[3/4] flex items-center justify-center'>
                     <img 
                         src={require('../assets/profile-photo.jpg')} 
@@ -46,8 +60,8 @@ const About = () => {
             </div>
         </div>
 
-        {/* Fun Fact - Bottom Left Corner - Fully Responsive */}
-        <div className='absolute bottom-2 left-2 sm:bottom-4 sm:left-4 md:bottom-6 md:left-6 lg:bottom-8 lg:left-8 max-w-[280px] sm:max-w-[320px] md:max-w-[360px] lg:max-w-[400px]'>
+        {/* Fun Fact - Bottom Right Corner - Fully Responsive */}
+        <div className='absolute bottom-2 right-2 sm:bottom-4 sm:right-4 md:bottom-6 md:right-6 lg:bottom-8 lg:right-8 max-w-[280px] sm:max-w-[320px] md:max-w-[360px] lg:max-w-[400px]'>
             <div className='bg-[#C8E6C9]/70 backdrop-blur-md rounded-lg sm:rounded-xl shadow-lg p-3 sm:p-4 md:p-5 lg:p-6 transition-all duration-300 border border-white/30 group'>
                 <div className='flex flex-row items-center gap-2 sm:gap-3 md:gap-4'>
                     {/* Melona Interactive Images - Left Side - Responsive Size */}

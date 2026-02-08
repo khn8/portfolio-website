@@ -7,8 +7,8 @@ export const data=[
         launchDate:"January 2026",
         image:"weather-cloth-rec",
         imageExt:"png",
-        github:"https://github.com/khn8/weather-cloth-rec",
-        liveUrl: "http://localhost:5173",
+        github:"https://github.com/khang2001/weather-cloth-rec",
+        liveUrl: "https://khang2001.github.io/weather-cloth-rec/",
         tech:"React, FastAPI, PostgreSQL, Python, Tailwind CSS",
         description:"A full-stack web application that provides personalized clothing recommendations based on real-time weather data, user preferences, and comfort levels. Features user authentication, location management, and a custom scoring algorithm.",
         fullDescription: {
